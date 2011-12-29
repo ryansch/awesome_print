@@ -15,13 +15,13 @@ task :spec do
 end
 
 Gem::Specification.new do |s|
-  s.name        = "awesome_print"
+  s.name        = "ryansch-awesome_print"
   s.version     = AwesomePrint.version
 # s.platform    = Gem::Platform::RUBY
-  s.authors     = "Michael Dvorkin"
+  s.authors     = ["Michael Dvorkin", "Ryan Schlesinger"]
   s.date        = Time.now.strftime("%Y-%m-%d")
-  s.email       = "mike@dvorkin.net"
-  s.homepage    = "http://github.com/michaeldv/awesome_print"
+  s.email       = "ryan@instanceinc.com"
+  s.homepage    = "http://github.com/ryansch/awesome_print"
   s.summary     = "Pretty print Ruby objects with proper indentation and colors"
   s.description = "Great Ruby dubugging companion: pretty print Ruby objects to visualize their structure. Supports custom object formatting via plugins"
 
